@@ -1,9 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #bbd6ff;
+    background-color: hsla(61, 100%, 87%, 0);
+    background-image: url(/img/1625563823_14-kartinkin-com-p-esteticheskii-fon-bezhevii-krasivie-foni-14.jpg);
   }
   li {
-    color: #595959;
+    color: #c4ab204f;
     font-size: 14px;
     line-height: 24px;
   }
@@ -12,7 +13,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    background-color: #23a3a3;
+    background-color: #c4ab204f;
     margin: 40px auto;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   }
@@ -34,7 +35,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    color: #caf3f3;
+    color: rgb(250, 11, 11);
     margin-bottom: 10px;
   }
   .main-content-Management {
@@ -116,14 +117,14 @@ body {
   
   /* my-work-experientce */
   .my-work-experientce-company {
-    color: #caf3f3;
+    color: rgb(250, 11, 11);
   }
   .my-work-experientce-position {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    margin-bottom: 10px;
+    
   }
   .my-work-experientce-period {
     font-style: normal;
@@ -170,7 +171,7 @@ body {
   
   /* sidebar section */
   .sidebar-section {
-    background-color: #b1228d;
+    background-color: #c4ab204f;
     width: 370px;
     padding: 40px 0;
   }
@@ -190,7 +191,7 @@ body {
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    color: #fff;
+    color: rgb(8, 8, 8);
     margin-bottom: 10px;
   }
   /* contacts section */
@@ -199,11 +200,11 @@ body {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #ffff;
+    color: rgb(12, 12, 12);
     margin-right: 10px;
   }
   .contacts-section-link {
-    color: #377eda;
+    color: #141414;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -215,7 +216,7 @@ body {
     padding: 19px;
   }
   .tech-skills-item {
-    color: #caf3f3;
+    color: #080808;
   }
   .tech-skills-item-text,
   .tech-skills-item-text {
@@ -223,5 +224,28 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #fff;
+    color: rgb(250, 11, 11);
+  }
+
+
+
+
+
+
+  .set-link {
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--primary-white-color);
+    background-color: #000;
+  }
+  .set-item + .set-item {
+    margin-left: 10px;
+  }
+  .set-link:hover,
+  .set-link:focus {
+    background-color: rgb(209, 28, 28);
   }
